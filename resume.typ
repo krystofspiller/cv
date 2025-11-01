@@ -8,7 +8,7 @@
 #let headerFont = metadata.layout.fonts.header_font
 #let accentColor = rgb(metadata.layout.accent_color)
 #let headerQuote = metadata.lang.header_quote 
-#let footer = metadata.lang.cv_footer 
+#let footer = metadata.lang.resume_footer 
 #let regularColors = (
   subtlegray: rgb("#ededee"),
   lightgray: rgb("#343a40"),

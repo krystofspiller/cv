@@ -87,7 +87,7 @@ Dear Hiring Manager,
 
 #{
   show "my homepage": link("https://" + homepage)[#underline("my homepage")]
-  let contentPars = metadataLocal.letter_variables.content.split("\n")
+  let contentPars = metadataLocal.letter_variables.generic_content.split("\n")
   for p in contentPars {
     if p == "" {
       continue

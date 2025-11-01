@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "cv": "typst watch cv.typ",
+    "resume": "typst watch resume.typ",
     "letter": "typst watch letter.typ",
-    "readme": "magick -density 300 cv.pdf assets/readme.png"
+    "readme": "magick -density 300 resume.pdf assets/readme.avif"
   }
 }

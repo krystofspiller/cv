@@ -18,5 +18,5 @@
 
 [lang]
     header_quote = "Senior Software Engineer | Developing customer-centric solutions"
-    cv_footer = "Curriculum vitae"
+    resume_footer = "Resume"
     letter_footer = "Cover letter"

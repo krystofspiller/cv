@@ -1,1 +1,1 @@
-<a href="https://github.com/Laegas/cv/blob/main/cv.pdf"><img src="./assets/readme.png" alt="CV" width="100%"></a>
+<a href="https://github.com/Laegas/cv/blob/main/resume.pdf"><img src="./assets/readme.avif" alt="Resume" width="100%"></a>
