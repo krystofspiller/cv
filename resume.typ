@@ -279,9 +279,20 @@
 
 #cvEntry(
   title: [Senior Software Engineer],
+  society: [Portchain],
+  logo: image("img/portchain.svg"),
+  date: [2025 - Present],
+  location: [Copenhagen, Denmark],
+  description: "Implemented integrations for terminals to expand the Portchain network. Modernized frontend tests to follow best practices. Introduced Dependabot and resolved 100+ security vulnerabilities. Improved database performance and reduced load of pages by up to 50%. Migrated services to GCP using Terraform. Participated in hiring process for multiple engineers.",
+  interpersonalTags: ("Hiring", "Meeting moderation"),
+  techTags: ("GCP", "Terraform"), 
+)
+
+#cvEntry(
+  title: [Senior Software Engineer],
   society: [Carta],
   logo: image("img/carta.svg"),
-  date: [2022 - Present],
+  date: [2022 - 2025],
   location: [Copenhagen, Denmark],
   description: "I enabled better sales offerring and transparent management of billing for customers by revamping billing in a cross-functional teamwork, increased product demand by creating a tool for fundraising founders, delivered high-impact features despite tight deadlines, implemented in-app workflows increasing revenue for additional paid service by 300%, provided affordable currency exchange rate solution for 200+ currencies, enhanced UX and DX of modal component and improved product reliability by automating link validation and adding data integrity checks. Presented upcoming features to both company-wide and small stakeholder groups, tailoring the presentation accordingly. Collaborated with and on solutions with designers and product managers. Communicated clear and critical feedback in code reviews.",
   interpersonalTags: ("Cross-functional teamwork", "Ideation sessions", "Technical discussions", "Stakeholder demos", "Office hours"),
@@ -305,9 +316,6 @@
   logo: image("img/systematic.png"),
   date: [2019 - 2020],
   location: [Aarhus, Denmark],
-  description: "Accelerated developer velocity for hospital task system app for nurses and orderlies by streamlining dependency management and build system. Maintained high software quality by participating in acceptance testing.",
-  interpersonalTags: ("Acceptance testing", "Retrospectives", "Daily standup", "Kanban"),
-  techTags: ("Powershell", "C#", ".NET Core", "TeamCity", "Grunt"),
 )
 
 #cvSection("Education")
@@ -336,49 +344,47 @@
   ),
 )
 
-#cvSection("Certificates")
+#cvSection("Lifelong learning")
 
 #grid(
   columns: (1fr, 1fr),
   rows: auto,
   gutter: 6pt,
   cvEntry(
+    society: [Advanced TypeScript],
+    title: [Execute Program #dateStyle("- 2025", alignRight: false)],
+    logo: image("img/execute-program.svg"),
+  ),
+  cvEntry(
+    society: [Fireship.dev],
+    title: [query.gg + react.gg #dateStyle("- 2025", alignRight: false)],
+    logo: image("img/fireship.svg"),
+  ),
+  cvEntry(
+    society: [Learn Go for Developers],
     title: [Boot.dev #dateStyle("- 2023", alignRight: false)],
-    society: [Learn #box(baseline: 17%, image(height: 9pt, "img/go.png")) for Developers],
     logo: image("img/bootdev.png"),
   ),
   cvEntry(
-    title: [DeepLearning.AI #dateStyle("- 2020", alignRight: false)],
     society: [Deep Learning Specialization],
+    title: [DeepLearning.AI #dateStyle("- 2020", alignRight: false)],
     logo: image("img/deep-learning-ai.png"),
   )
-)
-
-#cvSection("Projects")
-
-#cvEntry(
-  title: [HabitVille],
-  date: [2023 - Present],
-  description: list(
-    [Hobby project for tracking habits and gamifying it in a tycoon-game. Started with a web app, now working on an iOS mobile app.],
-  ),
-  techTags: ("NextJS", "React Native", "Expo", "iOS", "AWS RDS", "BaaS - AppWrite | Convex", "NativeWind"),
-  oneline: true
 )
 
 #cvSection("Skills")
 
 #cvSkill(
   type: [Interpersonal],
-  info: [Thorough & kind code reviews #hBar() Sharing critical feedback in a non-contentious way],
+  info: [Thorough code reviews #hBar() Hiring #hBar() Sharing critical feedback],
 )
 
 #cvSkill(
   type: [Technologies],
-  info: [Ruby on Rails #hBar() React (+ Native) #hBar() TypeScript #hBar() PostgreSQL #hBar() Git #hBar() GitHub Actions #hBar() Tailwind CSS #hBar() Go #hBar() C\# #hBar() Typst],
+  info: [Ruby on Rails #hBar() React (+ Native) #hBar() TypeScript #hBar() PostgreSQL #hBar() Git #hBar() GitHub Actions #hBar() Tailwind CSS #hBar() Go #hBar() C\#],
 )
 
 #cvSkill(
   type: [Services],
-  info: [Stripe #hBar() HubSpot #hBar() Heroku #hBar() Slack API #hBar() Netlify #hBar() PlanetScale #hBar() Turso],
+  info: [Stripe #hBar() HubSpot #hBar() GCP #hBar() Heroku #hBar() Slack API #hBar() Netlify #hBar() Convex],
 )
