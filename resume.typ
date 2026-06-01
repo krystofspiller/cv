@@ -283,9 +283,9 @@
   logo: image("img/portchain.svg"),
   date: [2025 - Present],
   location: [Copenhagen, Denmark],
-  description: "Implemented integrations for terminals to expand the Portchain network. Modernized frontend tests to follow best practices. Introduced Dependabot and resolved 100+ security vulnerabilities. Improved database performance and reduced load of pages by up to 50%. Migrated services to GCP using Terraform. Participated in hiring process for multiple engineers.",
-  interpersonalTags: ("Hiring", "Meeting moderation"),
-  techTags: ("GCP", "Terraform"), 
+  description: "I implemented integrations to leverage network effects, led a project using AI to parse wildly differing formats of shipping data and drove implementation of feature leading to major customer acquisition. Modernized and refactored tooling, tests and CI to run 10x faster with 5x smaller usage and cost. Modernized codebase and resolved 100+ critical security vulnerabilities. Improved database performance and reduced load of pages by up to 50%. Migrated services to GCP using Terraform. Participated in hiring process for multiple engineers.",
+  interpersonalTags: ("Hiring", "Town hall demos", "Meeting moderation"),
+  techTags: ("Claude Code", "Codex", "Cursor", "GCP", "Terraform"), 
 )
 
 #cvEntry(
@@ -381,10 +381,10 @@
 
 #cvSkill(
   type: [Technologies],
-  info: [Ruby on Rails #hBar() React (+ Native) #hBar() TypeScript #hBar() PostgreSQL #hBar() Git #hBar() GitHub Actions #hBar() Tailwind CSS #hBar() Go #hBar() C\#],
+  info: [TypeScript #hBar() Ruby on Rails #hBar() React #hBar() PostgreSQL #hBar() Git #hBar() GitHub Actions #hBar() Go #hBar() Python #hBar() C\#],
 )
 
 #cvSkill(
   type: [Services],
-  info: [Stripe #hBar() HubSpot #hBar() GCP #hBar() Heroku #hBar() Slack API #hBar() Netlify #hBar() Convex],
+  info: [Stripe #hBar() HubSpot #hBar() GCP #hBar() Heroku #hBar() Slack API #hBar() LaunchDarkly #hBar() Netlify #hBar() Convex],
 )
